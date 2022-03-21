@@ -11,6 +11,7 @@ public class Conversor {
 		double n1, medida;
 		System.out.println("digite o valor a ser convertido:");
 		n1 = input.nextDouble();
+		//perguntando qual a medida inicial
 		System.out.println(" qual a medida?"
 				+ "\n (1) Km "
 				+ "\n (2) Hm "
@@ -20,6 +21,7 @@ public class Conversor {
 				+ "\n (6) Cm "
 				+ "\n (7) Mm ");
 		medida = input.nextDouble();
+		//convertendo para as medidas
 		if (medida == 1) {
 			System.out.println(n1 + "Km" + " convertido em:");
 			System.out.println(formatador.format(n1*10) + "hm");
@@ -77,7 +79,7 @@ public class Conversor {
 			System.out.println(formatador.format(n1/10) + "dm");
 			System.out.println(formatador.format(n1/10) + "cm");
 		}else {
-			System.out.println("digite uma operaÁ„o v·lida");
+			System.out.println("digite uma opera√ß√£o v√°lida");
 		}
 		input.close();
 	}
