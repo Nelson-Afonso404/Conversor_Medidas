@@ -79,6 +79,7 @@ public class Conversor {
 		}else {
 			System.out.println("digite uma operação válida");
 		}
+		//fechando o input
 		input.close();
 	}
 
